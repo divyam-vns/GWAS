@@ -1,0 +1,18 @@
+gwas_pipeline/
+│
+├── data/
+│   ├── genotype.bed          # Example genotype file
+│   ├── genotype.bim
+│   ├── genotype.fam
+│   ├── phenotype.csv         # Columns: FID, IID, Trait
+│   └── covariates.csv        # Columns: FID, IID, Age, Sex, PC1, PC2
+│
+├── scripts/
+│   ├── qc_plink.sh           # PLINK QC commands
+│   ├── pca_plink.sh          # PCA using PLINK
+│   ├── gwas_analysis.py      # Python GWAS regression & visualization
+│
+├── results/                  # Output folder for GWAS results
+│
+├── README.md
+└── requirements.txt
